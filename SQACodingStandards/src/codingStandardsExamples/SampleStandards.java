@@ -48,6 +48,10 @@ public class SampleStandards {
 			System.out.println("Invalid choice.");
 			break;
 		}
+		
+		SecondSampleStandards samp = new SecondSampleStandards();
+		samp.fyp();
+		samp.exams();
 		scanner.close();
 	}
 
@@ -65,6 +69,12 @@ public class SampleStandards {
 		//acceptable use of single character variables
 		for(int i=0; i<modules.size(); i++) {
 			System.out.println(modules.get(i));
-		}			
+		}
+	}
+	
+	//Interface using UpperCamelCase
+	public interface CollegeStuff{
+		public void exams();
+		public void fyp();
 	}
 }
