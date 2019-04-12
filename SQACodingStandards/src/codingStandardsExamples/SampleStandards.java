@@ -5,6 +5,7 @@ package codingStandardsExamples;
  * @author evaconnolly
  * 
  * A guide for developers with examples of the coding practices and standards that they must adhere to while writing source code
+ * 
  */
 
 import java.util.*;
